@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Regstration with html</title>
+    <script src="https://kit.fontawesome.com/688fd47576.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        *{
+            padding: 0%;
+            margin: 0%;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: cursive;
+            background-color: deepskyblue;
+        }
+
+        .navbar{
+            border: 1px solid black;
+            height: 10px;
+            width: 100%;
+            margin: 0% 0% 5% 0%;
+            background: #704214;
+            padding: 4%;
+            /*padding: 2% 0% 6% 65%;*/
+        }
+        .navbar a{
+            color: white;
+            padding: 2%;
+            text-align: left;
+        }
+        .login{
+            border: black 1px solid;
+            margin: 0% 0% 0% 55%;
+            position: fixed;
+            top: 20%;
+            padding: 5% 5% 5% 5%;
+            width: 30%;
+            height: 478px;
+        }
+        .head{
+            padding:10% 2% 22% 14%;  /*10% 2 20 14 */
+        }
+        input{
+            width: 100%;
+            margin: 0% 6% 6% 0%;
+            padding: 2% 0% 1% 2%;
+            border-radius: 5px;
+        }
+        .btn{
+            border-radius: 12px;
+            padding: 2%;
+            color: white;
+            background: red;
+            width: 70%;
+            margin: 8% 0% 10% 16%;
+        }
+            
+        .ig{
+           position: fixed;
+           top: 20%;
+           margin: 0% 0% 8% 20%;
+           background-color: deepskyblue;
+
+        }
+        .user{
+            bottom: 10%;
+            margin: 0% 0% 0% 67%;
+            font-size: 40px;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+	<nav class="navbar"> 
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact us</a>
+	</nav>
+
+
+    <div class="ig">
+    <img src="img.jpg" alt="img1" />
+    </div>  
+          <p class="user"><i class="fa-solid fa-users"></i></p>
+      <div class="login">       
+      <h1 class="head">User Login</h1>
+      <p>
+      <input type="name" placeholder="User name"  value=""/></p>
+      <p>
+      <input type="password" placeholder="Password" value=""/></p>
+      <p>Forgot Password?</p>
+      <button class="btn">Login</button>
+      </div>
+
+      
+</body>
+</html>
